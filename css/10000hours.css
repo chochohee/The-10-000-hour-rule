@@ -150,7 +150,7 @@ form button {
   background-color: var(--sub-color);
   color: var(--main-color);
   min-width: 24.1rem;
-  width: 80vw;
+  width: 70vw;
   padding: 2.3rem 0 2.1rem 0;
   font-family: var(--font-bold);
   border-radius: 13px;
