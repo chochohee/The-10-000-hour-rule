@@ -1,0 +1,434 @@
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2")
+      format("woff2"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff")
+      format("woff"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf")
+      format("opentype");
+}
+
+html {
+  font-size: 10px;
+}
+
+:root {
+  --main-color: #5b2386;
+  --sub-color: #f5df4d;
+  --text-color: #fff;
+  --placeholder-color: #babcbe;
+  --font-bold: "GmarketSansBold";
+}
+
+body {
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "GmarketSansMedium";
+}
+
+/* title */
+.title {
+  background-image: url(../img/clock.png);
+  width: 26.7rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.1rem;
+}
+
+.title img {
+  width: 26.7rem;
+  padding: 20%;
+}
+
+.title-content {
+  font-family: "OTEnjoystoriesBA";
+  font-size: 2.2rem;
+  line-height: 2.42rem;
+  color: var(--sub-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 6.2rem;
+}
+
+.quotes {
+  color: var(--text-color);
+  background-image: url(../img/quotes.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 29rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  margin-bottom: 6.2rem;
+}
+
+.quotes strong {
+  font-family: var(--font-bold);
+}
+
+/* form */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+form span {
+  color: white;
+  font-size: 1.4rem;
+  line-height: 4rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 4.9rem;
+  word-break: keep-all;
+}
+
+form input[type="text"] {
+  width: 15.6rem;
+  padding: 1.2rem 0;
+  border-radius: 7px;
+  border: none;
+  text-align: center;
+}
+
+form input[type="text"]::placeholder {
+  color: var(--placeholder-color);
+  text-align: center;
+}
+
+form button {
+  background-color: var(--sub-color);
+  color: var(--main-color);
+  min-width: 24.1rem;
+  width: 80vw;
+  padding: 2.3rem 0 2.1rem 0;
+  font-family: var(--font-bold);
+  border-radius: 13px;
+  border: none;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: center;
+  position: relative;
+  margin-bottom: 6.4rem;
+}
+
+form button::after {
+  content: url(../img/click.png);
+  width: 4.3rem;
+  padding: 4.8rem;
+  position: absolute;
+  right: -10rem;
+  bottom: -7rem;
+}
+
+.how-btn {
+  padding: 1.9rem 3.65rem 1.7rem 3.65rem;
+}
+
+.last-text {
+  color: var(--text-color);
+  font-size: 1.4rem;
+  line-height: 3.4rem;
+  text-align: center;
+}
+
+.last-text strong {
+  font-family: var(--font-bold);
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+}
+
+.btn-wrap {
+  margin-top: 5.5rem;
+}
+.go-btn {
+  width: 18.6rem;
+  padding: 2.2rem 0;
+  background-color: var(--sub-color);
+  color: var(--main-color);
+  border-radius: 56px;
+  font-family: var(--font-bold);
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  border: none;
+  margin-right: 1.3rem;
+}
+
+.share-btn {
+  width: 9.2rem;
+  padding: 2.2rem 0;
+  background-color: var(--text-color);
+  color: var(--main-color);
+  border-radius: 56px;
+  font-family: var(--font-bold);
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8.3rem;
+}
+
+footer p {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  font-family: "Noto Sans KR";
+  margin-top: 1.7rem;
+  text-align: center;
+}
+
+/* dialog */
+
+.dialog {
+  width: 33rem;
+  height: 50rem;
+  background-color: var(--text-color);
+  border-radius: 3rem;
+  box-shadow: 0px 0px 20px 0px #00000080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dialog h1 {
+  font-family: "OTEnjoystoriesBA";
+  color: var(--main-color);
+  font-size: 6.4rem;
+  line-height: 7rem;
+}
+
+.dialog h2 {
+  font-family: "OTEnjoystoriesBA";
+  color: var(--main-color);
+  font-size: 3.6rem;
+  line-height: 3.96rem;
+}
+
+.dialog img {
+  width: 24.1rem;
+  margin-top: 2.4rem;
+}
+
+.dialog button {
+  width: 24.1rem;
+  padding: 2.3rem 0 2.1rem 0;
+  color: var(--main-color);
+  background-color: #fcee21;
+  border: none;
+  border-radius: 1.3rem;
+  box-shadow: 0px 0px 10px 0px #00000080;
+  margin-top: 3.4rem;
+  font-family: var(--font-bold);
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
+@media (min-width: 767px) {
+  .title {
+    width: 56.4rem;
+    margin-bottom: 4.6rem;
+  }
+
+  .title img {
+    width: 56.4rem;
+  }
+
+  .title-content {
+    font-size: 3.6rem;
+    line-height: 3.96rem;
+  }
+
+  main {
+    margin-top: 4.8rem;
+  }
+
+  .quotes {
+    background-position: center;
+    width: 49.3rem;
+    padding-top: 3rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    margin-bottom: 10.2rem;
+  }
+
+  .quotes strong {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+  }
+
+  form span {
+    font-size: 2.4rem;
+    line-height: 8rem;
+    margin-bottom: 11.5rem;
+  }
+
+  form input[type="text"] {
+    width: 22.8rem;
+    padding: 1.7rem 0 1.6rem 0;
+    border-radius: 7px;
+    font-size: 2.4rem;
+  }
+
+  form input[type="text"]::placeholder {
+    font-size: 2.4rem;
+  }
+
+  br.onlyM {
+    display: none;
+  }
+
+  form button {
+    width: 56.5rem;
+    padding: 2.1rem 4.9rem;
+    border-radius: 56px;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    position: relative;
+    margin-bottom: 11.5rem;
+  }
+
+  form button::after {
+    width: 6.4rem;
+    position: absolute;
+    left: 52rem;
+    bottom: -7rem;
+  }
+
+  .how-btn {
+    padding: 2.1rem 4.9rem;
+  }
+
+  .last-text {
+    font-size: 2.4rem;
+    line-height: 7.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .last-text strong {
+    font-size: 7.2rem;
+    line-height: 7.2rem;
+  }
+
+  .btn-wrap {
+    margin-top: 12.7rem;
+  }
+
+  .go-btn {
+    width: 35.6rem;
+    padding: 2.1rem 4.9rem;
+    border-radius: 56px;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    border: none;
+    margin-right: 1.8rem;
+  }
+
+  .share-btn {
+    width: 19.1rem;
+    padding: 2.1rem 4.9rem;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    border: none;
+  }
+
+  footer {
+    margin-top: 13rem;
+  }
+
+  footer p {
+    font-size: 1.2rem;
+    line-height: 1.74rem;
+    font-family: "Noto Sans KR";
+    margin-top: 2rem;
+  }
+
+  /* dialog */
+
+  .dialog {
+    width: 80rem;
+    height: 80rem;
+  }
+
+  .dialog h1 {
+    font-size: 9.6rem;
+    line-height: 10.6rem;
+  }
+
+  .dialog h1:after {
+    content: "♥♥♥";
+  }
+
+  .dialog img {
+    width: 43.3rem;
+    margin-top: 2.9rem;
+  }
+
+  .dialog button {
+    width: 50.8rem;
+    padding: 2.1rem 4.9rem;
+    border-radius: 5.6rem;
+    margin-top: 7.4rem;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+  }
+}
