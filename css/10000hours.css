@@ -97,7 +97,6 @@ main {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 29rem;
   display: inline-block;
   justify-content: center;
   align-items: center;
@@ -149,9 +148,7 @@ form input[type="text"]::placeholder {
 form button {
   background-color: var(--sub-color);
   color: var(--main-color);
-  min-width: 24.1rem;
-  width: 70vw;
-  padding: 2.3rem 0 2.1rem 0;
+  padding: 2.3rem 3.65rem 2.1rem 3.65rem;
   font-family: var(--font-bold);
   border-radius: 13px;
   border: none;
@@ -192,8 +189,7 @@ form button::after {
   margin-top: 5.5rem;
 }
 .go-btn {
-  width: 18.6rem;
-  padding: 2.2rem 0;
+  padding: 2.2rem 4.9rem;
   background-color: var(--sub-color);
   color: var(--main-color);
   border-radius: 56px;
@@ -205,8 +201,7 @@ form button::after {
 }
 
 .share-btn {
-  width: 9.2rem;
-  padding: 2.2rem 0;
+  padding: 2.2rem 4.9rem;
   background-color: var(--text-color);
   color: var(--main-color);
   border-radius: 56px;
@@ -236,8 +231,7 @@ footer p {
 /* dialog */
 
 .dialog {
-  width: 33rem;
-  height: 50rem;
+  padding: 4rem 4.5rem;
   background-color: var(--text-color);
   border-radius: 3rem;
   box-shadow: 0px 0px 20px 0px #00000080;
@@ -267,8 +261,7 @@ footer p {
 }
 
 .dialog button {
-  width: 24.1rem;
-  padding: 2.3rem 0 2.1rem 0;
+  padding: 2.3rem 4.9rem 2.1rem;
   color: var(--main-color);
   background-color: #fcee21;
   border: none;
@@ -301,7 +294,6 @@ footer p {
 
   .quotes {
     background-position: center;
-    width: 49.3rem;
     padding-top: 3rem;
     font-size: 1.8rem;
     line-height: 2.5rem;
@@ -320,8 +312,7 @@ footer p {
   }
 
   form input[type="text"] {
-    width: 22.8rem;
-    padding: 1.7rem 0 1.6rem 0;
+    padding: 1.7rem 4.1rem 1.6rem 3.9rem;
     border-radius: 7px;
     font-size: 2.4rem;
   }
@@ -335,7 +326,6 @@ footer p {
   }
 
   form button {
-    width: 56.5rem;
     padding: 2.1rem 4.9rem;
     border-radius: 56px;
     font-size: 2.4rem;
@@ -374,7 +364,6 @@ footer p {
   }
 
   .go-btn {
-    width: 35.6rem;
     padding: 2.1rem 4.9rem;
     border-radius: 56px;
     font-size: 2.4rem;
@@ -384,7 +373,6 @@ footer p {
   }
 
   .share-btn {
-    width: 19.1rem;
     padding: 2.1rem 4.9rem;
     font-size: 2.4rem;
     line-height: 2.4rem;
@@ -405,9 +393,8 @@ footer p {
   /* dialog */
 
   .dialog {
-    width: 80rem;
-    height: 80rem;
-  }
+    padding: 7.6rem 14.6rem 6.8rem
+}
 
   .dialog h1 {
     font-size: 9.6rem;
@@ -424,7 +411,6 @@ footer p {
   }
 
   .dialog button {
-    width: 50.8rem;
     padding: 2.1rem 4.9rem;
     border-radius: 5.6rem;
     margin-top: 7.4rem;
