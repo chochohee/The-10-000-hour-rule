@@ -1,2 +1,2 @@
 # The-10-000-hour-rule
-1만시간의 법칙
+>배포페이지 : https://chochohee.github.io/The-10-000-hour-rule/
