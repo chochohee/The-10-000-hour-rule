@@ -22,7 +22,7 @@
 |![image](https://github.com/user-attachments/assets/0aed1f12-ed4e-43c3-b94a-aaa792001497)|![image](https://github.com/user-attachments/assets/c41795c2-8846-4edc-b252-52be64d5f502)|
 
 
-## 느낀점
+## ❕느낀점
 CSS보다는 시네마틱한 HTML 마크를 작성하는게 어려운 것 같다.
 
 차근차근 다른 프로젝트들도 진행하면서 시네마틱하게 제작할 수 있도록 연습 또 연습 해야겠다 ㅠㅠ..
