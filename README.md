@@ -10,13 +10,13 @@
 
   ## UI/UX
   
-  ### mobile
+  ### 📱mobile
   
   |vew|modal|
   |:----:|:----:|
   |![image](https://github.com/user-attachments/assets/47557578-d8c1-4fe5-b538-3757876592a2)|![image](https://github.com/user-attachments/assets/ad50cbab-69e5-496f-8675-f9c3376e7c0c)|
 
-### Web
+### 🖥Web
 |vew|modal|
 |:----:|:----:|
 |![image](https://github.com/user-attachments/assets/0aed1f12-ed4e-43c3-b94a-aaa792001497)|![image](https://github.com/user-attachments/assets/c41795c2-8846-4edc-b252-52be64d5f502)|
