@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/cd3f8b0e-4ffd-4628-874d-9f16b1dc9787)# ⏱1만 시간의 법칙
+# ⏱1만 시간의 법칙
 >배포주소 : https://chochohee.github.io/The-10-000-hour-rule/  
 >🛠 사용 기술스택 :![image](https://github.com/user-attachments/assets/3cd4ca35-51a2-419c-80d0-c945d63e0a17) ![image](https://github.com/user-attachments/assets/f9c8f3a5-28e0-4b49-bba0-0205966fc1bc)
 
