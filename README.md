@@ -8,9 +8,9 @@
 - 추후 JS를 이용해 모달 띄우는 기능 등 구현예정
 
 
-  ## UI/UX
+## ✨UI/UX
   
-  ### 📱mobile
+### 📱mobile
   
   |vew|modal|
   |:----:|:----:|
