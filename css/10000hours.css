@@ -57,7 +57,7 @@ body {
 
 /* title */
 .title {
-  background-image: url(../img/clock.png);
+  background-image: url(../img/clock.svg);
   width: 26.7rem;
   background-repeat: no-repeat;
   background-size: contain;
@@ -65,7 +65,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3.1rem;
+  margin: 4.1rem 0 3.1rem 0;
 }
 
 .title img {
@@ -162,7 +162,7 @@ main {
 }
 
 .middle-text button::after {
-  content: url(../img/click.png);
+  content: url(../img/click.svg);
   width: 4.3rem;
   padding: 4.8rem;
   position: absolute;
@@ -239,6 +239,7 @@ footer p {
   font-family: "Noto Sans KR";
   margin-top: 1.7rem;
   text-align: center;
+  margin-bottom: 3.2rem;
 }
 
 /* dialog */
