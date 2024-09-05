@@ -261,26 +261,26 @@ dialog {
   flex-direction: column;
 }
 
-.dialog h1 {
+.dialog .dialog-title {
   font-family: "OTEnjoystoriesBA";
   color: var(--main-color);
   font-size: 6.4rem;
   line-height: 7rem;
 }
 
-.dialog h2 {
+.dialog .dialog-content {
   font-family: "OTEnjoystoriesBA";
   color: var(--main-color);
   font-size: 3.6rem;
   line-height: 3.96rem;
 }
 
-.dialog img {
+.dialog li img {
   width: 24.1rem;
   margin-top: 2.4rem;
 }
 
-.dialog button {
+.dialog li button {
   padding: 2.3rem 4.9rem 2.1rem;
   color: var(--main-color);
   background-color: #fcee21;
@@ -418,21 +418,21 @@ dialog {
     padding: 7.6rem 14.6rem 6.8rem;
   }
 
-  .dialog h1 {
+  .dialog .dialog-title {
     font-size: 9.6rem;
     line-height: 10.6rem;
   }
 
-  .dialog h1:after {
+  .dialog .dialog-title:after {
     content: "♥♥♥";
   }
 
-  .dialog img {
+  .dialog li img {
     width: 43.3rem;
     margin-top: 2.9rem;
   }
 
-  .dialog button {
+  .dialog li button {
     padding: 2.1rem 4.9rem;
     border-radius: 5.6rem;
     margin-top: 7.4rem;
