@@ -44,7 +44,7 @@
         대략 <strong>5110</strong> 일 이상 훈련하셔야 합니다! :)
       </p>
       <div class="btn-wrap">
-        <button class="go-btn">훈련하러 가기 Go!Go!</button>
+        <button class="go-btn" id="showDialogBtn">훈련하러 가기 Go!Go!</button>
         <button class="share-btn">공유하기</button>
       </div>
     </main>
@@ -57,11 +57,14 @@
       </p>
     </footer>
 
-    <div class="dialog">
+    <dialog class="dialog" id="myDialog">
       <h1>화이팅!!</h1>
       <h2>당신의 꿈을 응원합니다!</h2>
       <img src="./img/licat.png" alt="위니브의 사자마스코트 라이캣" />
-      <button>종료하고 진짜<br class="onlyM"/>훈련하러 가기 GO!GO!</button>
-    </div>
+      <button id="closeBtn">
+        종료하고 진짜<br class="onlyM" />훈련하러 가기 GO!GO!
+      </button>
+    </dialog>
+
   </body>
 </html>

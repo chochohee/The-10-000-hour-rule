@@ -104,6 +104,7 @@ main {
   font-size: 1.4rem;
   line-height: 2.4rem;
   margin-bottom: 6.2rem;
+  padding: 0 0.6rem 0 0.6rem;
 }
 
 .quotes strong {
@@ -138,6 +139,7 @@ main {
   border-radius: 7px;
   border: none;
   text-align: center;
+  margin: 0 0.4rem 0 0.4rem;
 }
 
 .middle-text input[type="text"]::placeholder {
@@ -177,12 +179,14 @@ main {
   font-size: 1.4rem;
   line-height: 3.4rem;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 .last-text strong {
   font-family: var(--font-bold);
   font-size: 2.4rem;
   line-height: 2.4rem;
+  letter-spacing: 2px;
 }
 
 .btn-wrap {
@@ -242,7 +246,10 @@ footer p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: absolute;
+  top: 50%;
 }
+
 
 .dialog h1 {
   font-family: "OTEnjoystoriesBA";
@@ -297,7 +304,8 @@ footer p {
 
   .quotes {
     background-position: center;
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
+    padding: 3rem 6rem 0 6rem;
     font-size: 1.8rem;
     line-height: 2.5rem;
     margin-bottom: 10.2rem;
@@ -308,19 +316,20 @@ footer p {
     line-height: 2.4rem;
   }
 
-  form span {
+  .middle-text span {
     font-size: 2.4rem;
     line-height: 8rem;
     margin-bottom: 11.5rem;
   }
 
-  form input[type="text"] {
+  .middle-text input[type="text"] {
     padding: 1.7rem 4.1rem 1.6rem 3.9rem;
     border-radius: 7px;
     font-size: 2.4rem;
+    margin: 0 1.7rem 0 1.7rem; 
   }
 
-  form input[type="text"]::placeholder {
+  .middle-text input[type="text"]::placeholder {
     font-size: 2.4rem;
   }
 
@@ -328,7 +337,7 @@ footer p {
     display: none;
   }
 
-  form button {
+  .middle-text button {
     padding: 2.1rem 4.9rem;
     border-radius: 56px;
     font-size: 2.4rem;
@@ -338,7 +347,7 @@ footer p {
     margin-bottom: 11.5rem;
   }
 
-  form button::after {
+  .middle-text button::after {
     width: 6.4rem;
     position: absolute;
     left: 52rem;
