@@ -237,6 +237,12 @@ footer p {
 
 /* dialog */
 
+dialog {
+  border-radius: 3rem;
+  border: none;
+  padding: 0;
+}
+
 .dialog {
   padding: 4rem 4.5rem;
   background-color: var(--text-color);
@@ -247,7 +253,6 @@ footer p {
   align-items: center;
   flex-direction: column;
 }
-
 
 .dialog h1 {
   font-family: "OTEnjoystoriesBA";
@@ -324,7 +329,7 @@ footer p {
     padding: 1.7rem 4.1rem 1.6rem 3.9rem;
     border-radius: 7px;
     font-size: 2.4rem;
-    margin: 0 1.7rem 0 1.7rem; 
+    margin: 0 1.7rem 0 1.7rem;
   }
 
   .middle-text input[type="text"]::placeholder {
@@ -403,8 +408,8 @@ footer p {
   /* dialog */
 
   .dialog {
-    padding: 7.6rem 14.6rem 6.8rem
-}
+    padding: 7.6rem 14.6rem 6.8rem;
+  }
 
   .dialog h1 {
     font-size: 9.6rem;
