@@ -18,30 +18,31 @@
     </header>
     <main>
       <q class="main-content"
-      >"연습은 어제의 당신보다 당신을 더 낫게 만든다."</q
-    >
+        >"연습은 어제의 당신보다 당신을 더 낫게 만든다."</q
+      >
       <div class="quotes">
         <strong>1만 시간의 법칙</strong>은<br />
         어떤 분야의 전문가가 되기 위해서는<br />
         최소한 1만 시간의 훈련이 필요하다는 법칙이다.
       </div>
-      <div class="middle-text">
+      <form class="middle-text" name="myForm">
         <span
-          >나는 <input type="text" placeholder="예)프로그래밍" /> 전문가가 될
-          것이다.<br />
+          >나는
+          <input type="text" placeholder="예)프로그래밍" id="input1" />
+          전문가가 될 것이다.<br />
           그래서 앞으로 매일 하루에 <br class="onlyM" />
-          <input type="text" placeholder="예)5시간" /> 시간씩 훈련할
+          <input type="text" placeholder="예)5시간" id="input2" /> 시간씩 훈련할
           것이다.</span
         >
-        <button class="how-btn">
+        <button type="submit" class="how-btn">
           나는 며칠 동안 훈련을 해야<br class="onlyM" />1만 시간이 될까?
         </button>
-      </div>
+      </form>
       <p class="last-text">
-        당신은 <strong>프로그래밍</strong> 전문가가 되기 위해서
+        당신은 <strong id="text1">프로그래밍</strong> 전문가가 되기 위해서
       </p>
       <p class="last-text">
-        대략 <strong>5110</strong> 일 이상 훈련하셔야 합니다! :)
+        대략 <strong id="text2">5110</strong> 일 이상 훈련하셔야 합니다! :)
       </p>
       <div class="btn-wrap">
         <button class="go-btn" id="go-btn">훈련하러 가기 Go!Go!</button>
@@ -62,24 +63,13 @@
         <li class="dialog-title">화이팅!!</li>
         <li class="dialog-content">당신의 꿈을 응원합니다!</li>
         <li><img src="./img/licat.svg" alt="" /></li>
-        <li><button id="closeBtn">
-          종료하고 진짜<br class="onlyM" />훈련하러 가기 GO!GO!
-        </button></li>
+        <li>
+          <button id="closeBtn">
+            종료하고 진짜<br class="onlyM" />훈련하러 가기 GO!GO!
+          </button>
+        </li>
       </ul>
     </dialog>
-    <script>
-      const dialog = document.getElementById('dialog');
-      const showModalBtn = document.getElementById('go-btn');
-      const closeBtn = document.getElementById('closeBtn');
-
-      showModalBtn.addEventListener('click', ()=>{
-        dialog.showModal();
-      });
-
-      closeBtn.addEventListener('click', ()=>{
-        dialog.close();
-      });
-
-    </script>
+    <script src="./js/10000hours.js"></script>
   </body>
 </html>
